@@ -26,5 +26,9 @@ public class CategoryResource {
 	public ResponseEntity<List<CategoryDTO>> findAll(){
 		List<CategoryDTO> list = service.findAll();
 		return ResponseEntity.ok().body(list);
+
 	}
+	
+
+	
 }
